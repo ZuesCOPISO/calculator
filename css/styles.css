@@ -21,17 +21,24 @@ input{
     margin-block: 20px;
     margin-inline: auto;
     height: 80px;
+    background-attachment: fixed;
+    background-color: bisque;
 }
 .button{
     background-color: rgb(54, 196, 196);
     border: none;
     padding: 19px;
     text-align: center;
-    text-shadow: blue;
+    text-shadow: rgb(10, 10, 39);
     text-decoration: wavy;
     font-size: 22px;
     margin: 6px 4px;
-
+    border-radius: 50px;
 }
-.button{border-radius: 50px;}
+.button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
 
