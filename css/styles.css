@@ -1,8 +1,37 @@
 *,
 *::before,
 *::after{
-margin: 0;
+margin: center;
 padding: 0;
 box-sizing: border-box;
 }
+title{ 
+    color: #f5eded;
+}
+body{background-color: rgb(242, 174, 232)}
+div{
+    width: 300px;
+    margin-inline: auto;
+    text-align: center;
+    border: 3px solid rgb(2, 28, 8);
+}
+
+input{
+    width: 90%;
+    margin-block: 20px;
+    margin-inline: auto;
+    height: 80px;
+}
+.button{
+    background-color: rgb(54, 196, 196);
+    border: none;
+    padding: 19px;
+    text-align: center;
+    text-shadow: blue;
+    text-decoration: wavy;
+    font-size: 22px;
+    margin: 6px 4px;
+
+}
+.button{border-radius: 50px;}
 
